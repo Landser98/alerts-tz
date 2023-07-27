@@ -1,0 +1,73 @@
+@import "fonts.css";
+
+:root {
+  --inter900: "Inter Black";
+  --inter400: "Inter Regular";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+html ul {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  background: black;
+  position: relative;
+}
+
+.body-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -10;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  gap: 16px;
+}
+
+.slider1 .slick-list {
+  padding: 0 250px;
+}
+.slider2 .slick-list {
+  padding: 0 100px;
+}
+.slider3 .slick-list {
+  padding: 0 170px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background: #ffffff29;
+  border-radius: 50%;
+  border: none;
+}
+
+.slick-dots li.slick-active button {
+  background: #0a72d4;
+}
