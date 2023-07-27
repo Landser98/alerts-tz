@@ -20,6 +20,7 @@ html ul {
 html body {
   background: black;
   position: relative;
+  overflow-x: hidden;
 }
 
 .body-bg {
